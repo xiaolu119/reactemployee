@@ -77,7 +77,7 @@ class Search extends React.Component{
         }
         return(<div>
             <div className="jumbotron">
-                <h5>Usion Axios, API - RAndome USem</h5>
+                <h5>Employee Directory</h5>
             </div>
             <MDBDataTable stripped bordered hover data ={data} />
         </div>)
