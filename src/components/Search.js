@@ -50,7 +50,7 @@ class Search extends React.Component{
     }
     componentDidMount = () => {
         let employeerecords = []
-        axios.get("https://randomuser.me/api/?results=20&nat=us")
+        axios.get("https://randomuser.me/api/?results=200&nat=us")
          .then(response => {
              //console.log(response.data.results)
             for(let i=0;i < response.data.results.length; i++){
